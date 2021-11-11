@@ -71,6 +71,7 @@ body {
 .header {
     height: 60px;
     background-color: #587f50;
+    /*box-shadow: 0 2px 2px 1px rgba(0, 0, 0, .2);*/
 }
 
 .logo {
@@ -83,5 +84,40 @@ body {
 .logo a {
     text-decoration: none;
     color: white;
+}
+
+.border {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.hero-block {
+    margin-right: 17px;
+}
+
+.hero-image {
+    display: block;
+}
+
+.directions {
+    display: block;
+}
+
+@media only screen and (max-width: 992px) {
+    .hero-image {
+        display: none;
+    }
+
+    .hero-block {
+        margin-right: 0;
+    }
+
+    .directions {
+        display: none !important;
+    }
 }
 
